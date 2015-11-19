@@ -1,6 +1,6 @@
 {
   "name": "bug-report-sender",
-  "version": "0.1.15",
+  "version": "0.2.2",
   "description": "bug report sender",
   "main": "index.js",
   "dependencies": {
@@ -20,7 +20,7 @@
     "source-map-support": "^0.3.3"
   },
   "scripts": {
-    "test": "gulp test && gulp lint",
+    "test": "gulp",
     "deploy": "./node_modules/.bin/npm-deploy"
   },
   "repository": {
